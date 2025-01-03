@@ -229,6 +229,7 @@ String XFont::getPixDataFromHex(String s)
 }
 void XFont::reInitZhiku(String fontPath){
     isInit=false;
+    fontFilePath=fontPath;
     initZhiku( fontPath);
 }
 void XFont::initZhiku(String fontPath)
